@@ -9,11 +9,6 @@ struct jPair{
 	
 };
 
-void jTrim(string& s){
-	for(int i = 0; i< s.size(); ++i)
-	//	if(isaplha(s[i]))
-			cout<<"hehe";
-}
 
  void trim(string& s){
 	size_t p = s.find_first_not_of(" \t");
